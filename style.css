@@ -1,0 +1,295 @@
+body {
+  background-image: url(data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221440%22%20height%3D%22661.1%22%20viewBox%3D%220%200%201440%20661.1%22%3E%3Cstyle%20type%3D%22text%2Fcss%22%3Ecircle%2C%20ellipse%2C%20line%2C%20path%2C%20polygon%2C%20polyline%2C%20rect%2C%20text%20%7B%20fill%3A%20rgb%280%2C%20128%2C%2096%29%20%21important%3B%20%7D%3C%2Fstyle%3E%3Cpath%20fill%3D%22rgb%280%2C%20128%2C%2096%29%22%20d%3D%22M1440%20488c-19.3%204.3-39.2%208.6-60%2013-174.2%2036.5-228.8%20288-467%2076.2-153.6-136.6-424-22.8-660.4-5.8-130.2%209.3-252.6-75-252.6-75V0h1440%22%2F%3E%3C%2Fsvg%3E);
+  font-family: ShopifySans, Helvetica, Arial, sans-serif;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: auto 750px;
+  margin: 0;
+}
+
+.hero {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo {
+  width: 100%;
+  height: 32px;
+  fill: white;
+  margin-top: 20px;
+  margin-bottom: 48px;
+}
+
+.container {
+  display: flex;
+  min-height: 100yh;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 3.75em;
+  letter-spacing: -0.0207142857em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h2 {
+  color: white;
+  font-weight: 400;
+  font-size: 2em;
+  letter-spacing: -0.0207142857em;
+  font-kerning: normal;
+  line-height: 1.33333333;
+}
+
+h3 {
+  color: white;
+  font-weight: 375;
+  font-size: 12px;
+  letter-spacing: -0.0207142857em;
+  margin-top: 25px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+
+p {
+  color: rgb(107, 113, 119);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+button {
+  background-color: #212326;
+  box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+  color: white;
+  padding: 1em 1.8125em;
+  border-radius: 4px;
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1.133;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  min-width: 165px;
+}
+
+.form-container {
+  max-width: 428px;
+  align-content: center;
+  margin-top: 15px;
+}
+
+.form {
+  display: flex;
+  max-width: 445px;
+}
+
+button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+#emailInput {
+  width: 50%;
+  margin: 0 0.9375em;
+  padding: 1em 0.9375em;
+  color: #212326;
+  font-family: ShopifySans, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  box-shadow: 0 0 0 1px #6b7177;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: #ffffff;
+  transition: padding 150ms;
+  min-width: 250px;
+  box-sizing: border-box;
+}
+
+.market-icon {
+  max-width: 280px;
+  padding-top: 40px;
+}
+
+.section-logos {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  display: flex;
+  margin: 0 52px;
+}
+
+.bucket {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 0 30px;
+}
+
+.centre-logo {
+  width: 45px;
+  fill: #008060;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.para {
+  margin-top: 0px;
+}
+
+.para p {
+  margin: 0;
+}
+
+.logo-header h4 {
+  margin: 0;
+  margin-bottom: 0.75em;
+}
+
+.brands-section {
+  border-top: 1px solid #d2d5d9;
+  border-bottom: 1px solid #d2d5d9;
+  box-sizing: border-box;
+  margin: 0 52px;
+}
+
+.brand-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 994px;
+  padding: 2em 0;
+}
+
+.list-item {
+  list-style-type: none;
+  flex: 1;
+  margin: 5px 16px;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+.list-image {
+  width: 100%;
+  min-width: 50px;
+  max-width: 90px;
+}
+
+.grid-text {
+  color: rgb(66, 71, 76);
+  margin-bottom: 20px;
+  line-height: 26.66px;
+  font-size: 20px;
+  font-weight: 400;
+  max-width: 520px;
+}
+
+.grid-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  margin: 0 52px;
+}
+
+.citation {
+  margin-bottom: 32px;
+  color: rgb(66, 71, 76);
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.615px;
+  line-height: 16px;
+}
+
+.grid-button {
+  width: 103px;
+  padding: 16px 29px 16px 29px;
+  box-shadow: (0, 0, 0, 0.153);
+  background-color: rgb(0, 128, 96);
+}
+
+footer {
+  padding: 14px 80px;
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  box-sizing: border-box;
+}
+
+.footer-links {
+  text-decoration: none;
+  color: #008060;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  line-height: 24px;
+  font-weight: 350;
+  margin: 0 10px;
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 1.75em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  .brand-list {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 700px) {
+  .section-logos {
+    flex-direction: column;
+    margin: 0 32px;
+  }
+  footer {
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 544px) {
+  .form {
+    flex-direction: column;
+  }
+
+  button {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .form #emailInput {
+    margin: 0 0;
+    width: 100%;
+    min-width: auto;
+    margin-bottom: 8px;
+  }
+
+  .bucket {
+    padding: 0;
+    margin-bottom: 45px;
+  }
+  .brands-section {
+    margin: 0 32px;
+  }
+  .list-item {
+    margin: 15px 5px;
+  }
+}
